@@ -13,6 +13,12 @@
   }
 }
 
+@media print {
+   .noprint {
+      visibility: hidden;
+   }
+}
+
 
 body {
   background: #f1f3f5;
@@ -63,6 +69,11 @@ label{
 input[type="radio"] {
 	position: relative;
 	top: 2px;
+}
+
+#save{
+	color: #28a745;
+	background-color: white;
 }
 
 button {

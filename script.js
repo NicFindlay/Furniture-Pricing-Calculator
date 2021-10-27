@@ -43,29 +43,3 @@ btn.addEventListener ('click', function () {
 	// Set content of HTML element.
 	rlt.innerHTML = answer;
 });
-
-/**
-// Get button element by it's ID
-var save = document.querySelector('#save');
-console.log(save);
-
-// Bind a 'click' event to the button.
-save.addEventListener ('click', function () {
-
-	var doc = new jsPDF();
-var elementHTML = $('.container').html();
-var specialElementHandlers = {
-    '#elementH': function (element, renderer) {
-        return true;
-    }
-};
-doc.fromHTML(elementHTML, 15, 15, {
-    'width': 170,
-    'elementHandlers': specialElementHandlers
-});
-
-// Save the PDF
-doc.save('Furniture-Pricing.pdf');
-
-	});
-**/

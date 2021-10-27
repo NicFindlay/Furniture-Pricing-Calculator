@@ -69,12 +69,14 @@
 
 
 
-	<div class="input-control button">
+	<div class="noprint input-control button">
+		<button id="save" onclick="window.print()">Save as PDF</button>
+	</div><!-- .input-control -->
+
+	
+	<div class="noprint input-control button">
 		<button id="calculate">Calculate</button>
-	</div><!-- /.input-control 
-	<div class="input-control button">
-		<button id="save">Save</button>
-	</div> .input-control -->
+	</div><!-- /.input-control -->
 	<br><br>
 </div><!-- /.container -->
 
@@ -86,6 +88,7 @@
 
 
 <script src='script.js'></script>
+<script src='https://html2canvas.hertzen.com/dist/html2canvas.min.js'></script>
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
