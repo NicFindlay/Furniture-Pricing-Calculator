@@ -1,0 +1,95 @@
+<html>
+<head>
+<link rel='stylesheet' href='style.css'>
+<title>Pricing Calculator</title>
+</head>
+<body>
+
+<div class="container">
+	<h1>
+		Pricing Calculator
+		<span>
+	
+		</span>
+	</h1>
+	<div class="input-control">
+		<label for="num1">
+			Hourly Labor Cost <input type="text" placeholder="Input" id="num1" autofocus>
+		</label>
+	</div><!-- /.input-control -->
+
+	<div class="input-control">
+		<label for="num1">
+			X Hours Worked <input type="text" placeholder="Input" id="num2" >
+		</label>
+	</div><!-- /.input-control -->
+
+
+	<div class="input-control">
+		<label for="num1">
+			Labor Cost <input class="fixed" value="0" type="text" id="num3">
+		</label>
+	</div><!-- /.input-control -->
+
+	<div class="input-control">
+		<label for="num1">
+			Product Cost <input type="text" placeholder="Input" id="num4">
+		</label>
+	</div><!-- /.input-control -->
+
+		<div class="input-control">
+		<label for="num1">
+			Materials Cost <input type="text" placeholder="Input" id="num5">
+		</label>
+	</div><!-- /.input-control -->
+
+		<div class="input-control">
+		<label for="num1">
+			COS (cost of sale) <input class="fixed" value="0" type="text" id="num6">
+		</label>
+	</div><!-- /.input-control -->
+
+		<div class="input-control">
+		<label for="num1">
+			Your Selling Price<br> (50% Margin) <input class="fixed" value="0" type="text" id="num7">
+		</label>
+	</div><!-- /.input-control -->
+
+		<div class="input-control">
+		<label for="num1">
+			Less COS 
+		</label>
+	</div><!-- /.input-control -->
+<hr><br>
+		<div class="input-control">
+		<label for="num1">
+			Total Profit <input type="text" value="0"class="fixed profit" id="num9">
+		</label>
+	</div><!-- /.input-control -->
+
+
+
+	<div class="input-control button">
+		<button id="calculate">Calculate</button>
+	</div><!-- /.input-control 
+	<div class="input-control button">
+		<button id="save">Save</button>
+	</div> .input-control -->
+	<br><br>
+</div><!-- /.container -->
+
+<div class="container result">
+	<h3>TOTAL PROFIT
+	<p class="answer">0</p>
+</div><!-- /.container -->
+
+
+
+<script src='script.js'></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- jsPDF library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+</body>
+</html>
